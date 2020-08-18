@@ -16,6 +16,16 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+
+    flavorDimensions "default2"
+
+    productFlavors {
+
+        flavor3 {
+
+        }
+
+    }
 }
 
 dependencies {
